@@ -1,3 +1,5 @@
+> **Status:** ✅ Live at https://turgutlar-oto.com — Vercel SPA. Active maintenance.
+
 # Turgutlar Oto Tamir Merkezi
 
 Adana Seyhan'da faaliyet gösteren Turgutlar Oto Tamir ve Hasar Onarım Merkezi'nin kurumsal web sitesi.
