@@ -38,7 +38,7 @@ src/
 ## Dağıtım (Vercel)
 
 Proje Vercel için statik SPA olarak yapılandırıldı. Tüm rotalar `index.html`'e yönlendirilir
-(`vercel.json` üzerinden). Sürüm dalını push'lamanız yeterlidir; geri kalanını Vercel halleder.
+(`vercel.json` üzerinden). Sürüm dalını push etmeniz yeterlidir; geri kalanını Vercel halleder.
 
 ## İletişim Bilgileri Güncelleme
 
