@@ -2,47 +2,47 @@
 
 # Turgutlar Oto Tamir Merkezi
 
-Adana Seyhan'da faaliyet gösteren Turgutlar Oto Tamir ve Hasar Onarım Merkezi'nin kurumsal web sitesi.
+Corporate website for Turgutlar Oto Tamir ve Hasar Onarım Merkezi, an automotive repair and bodywork centre in Seyhan, Adana.
 
-## Teknoloji Yığını
+## Tech Stack
 
 - **Framework:** React 19 + Vite 6
-- **Dil:** TypeScript
-- **Stil:** Tailwind CSS v4
-- **Animasyon:** Motion (framer-motion)
-- **İkonlar:** Lucide React
-- **Dağıtım:** Vercel (statik SPA)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animation:** Motion (framer-motion)
+- **Icons:** Lucide React
+- **Deployment:** Vercel (static SPA)
 
-## Yerel Geliştirme
+## Local Development
 
 ```bash
 npm install
-npm run dev      # Geliştirme sunucusu (http://localhost:3000)
-npm run build    # Üretim derlemesi (dist/)
-npm run preview  # Build'i yerel olarak önizle
-npm run lint     # TypeScript tip kontrolü
+npm run dev      # Development server (http://localhost:3000)
+npm run build    # Production build (dist/)
+npm run preview  # Preview the production build locally
+npm run lint     # TypeScript type check
 ```
 
-## Proje Yapısı
+## Project Structure
 
 ```
 src/
-├── components/        # Tekrar kullanılabilir UI bileşenleri
-├── App.tsx            # Kök uygulama
-├── main.tsx           # React giriş noktası
-├── index.css          # Tailwind v4 tema ve global stiller
-├── data.ts            # Statik veri kaynağı (hizmetler, yorumlar, SSS, iletişim)
-└── types.ts           # TypeScript arayüzleri
+├── components/        # Reusable UI components
+├── App.tsx            # Root application
+├── main.tsx           # React entry point
+├── index.css          # Tailwind v4 theme and global styles
+├── data.ts            # Static data source (services, reviews, FAQ, contact)
+└── types.ts           # TypeScript interfaces
 ```
 
-## Dağıtım (Vercel)
+## Deployment (Vercel)
 
-Proje Vercel için statik SPA olarak yapılandırıldı. Tüm rotalar `index.html`'e yönlendirilir
-(`vercel.json` üzerinden). Sürüm dalını push etmeniz yeterlidir; geri kalanını Vercel halleder.
+The project is configured for Vercel as a static SPA. All routes are rewritten to `index.html`
+(via `vercel.json`). Pushing to the release branch is enough; Vercel handles the rest.
 
-## İletişim Bilgileri Güncelleme
+## Updating Contact Details
 
-Telefon, adres, çalışma saatleri ve e-posta gibi tüm iletişim bilgileri **tek bir kaynaktan**
-(`src/data.ts` içindeki `CONTACT_INFO` ve `WORKING_HOURS`) yönetilir. Bir değişiklik yapıldığında
-Header, Hero, Footer, WhatsAppButton, RepairStatusQuery ve `index.html` içindeki JSON-LD
-şeması otomatik olarak güncellenir.
+All contact information — phone, address, opening hours, and email — is managed from a
+**single source** (`CONTACT_INFO` and `WORKING_HOURS` in `src/data.ts`). When a value changes,
+the header, hero, footer, WhatsApp button, repair status query, and the JSON-LD schema in
+`index.html` are updated automatically.
