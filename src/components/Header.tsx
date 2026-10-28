@@ -30,7 +30,7 @@ interface HeaderProps {
   onBookClick: () => void;
 }
 
-// Promise ikon map (veri tarafında string-union, burada component map)
+// Promise icon map (the data side uses a string union, this is the component map)
 const PROMISE_ICONS = {
   shield: Shield,
   clock: Clock,

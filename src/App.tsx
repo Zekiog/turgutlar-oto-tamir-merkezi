@@ -82,7 +82,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#F8F9FA] text-[#212529] font-sans antialiased flex flex-col justify-between" id="app-root-container">
 
-      {/* SEO: LocalBusiness/AutoRepair JSON-LD şeması (tek kaynak: data.ts) */}
+      {/* SEO: LocalBusiness/AutoRepair JSON-LD schema (single source: data.ts) */}
       <SchemaOrg />
 
       

@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import { CONTACT_INFO } from '../data';
 
 /**
- * SEO için LocalBusiness / AutoRepair JSON-LD şemasını sayfa yüklendiğinde <head>'e enjekte eder.
- * Tüm iletişim bilgileri tek kaynaktan (data.ts) gelir; bu sayede şema her zaman
- * Header/Hero/Footer ile senkronize kalır.
+ * Injects the LocalBusiness / AutoRepair JSON-LD schema into <head> on page load for SEO.
+ * All contact details come from a single source (data.ts), so the schema always stays
+ * in sync with the header, hero and footer.
  */
 export default function SchemaOrg() {
   useEffect(() => {

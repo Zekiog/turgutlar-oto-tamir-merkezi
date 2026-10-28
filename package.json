@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Turgutlar Oto Tamir ve Hasar Onarım Merkezi kurumsal web sitesi",
+  "description": "Corporate website for Turgutlar Oto Tamir ve Hasar Onarım Merkezi (Adana, Seyhan)",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",

@@ -44,5 +44,5 @@ The project is configured for Vercel as a static SPA. All routes are rewritten t
 
 All contact information — phone, address, opening hours, and email — is managed from a
 **single source** (`CONTACT_INFO` and `WORKING_HOURS` in `src/data.ts`). When a value changes,
-the header, hero, footer, WhatsApp button, repair status query, and the JSON-LD schema in
-`index.html` are updated automatically.
+the header, hero, footer, WhatsApp button, repair status query, and the JSON-LD schema that
+`src/components/SchemaOrg.tsx` injects at runtime are updated automatically.
