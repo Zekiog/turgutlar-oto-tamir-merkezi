@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Corporate website for Turgutlar Oto Tamir ve Hasar Onarım Merkezi (Adana, Seyhan)",
+  "description": "Corporate website for Turgutlar Auto Repair and Bodywork Center (Seyhan, Adana)",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",

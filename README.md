@@ -1,8 +1,8 @@
 > **Status:** ✅ Live at https://turgutlar-oto.com — Vercel SPA. Active maintenance.
 
-# Turgutlar Oto Tamir Merkezi
+# Turgutlar Auto Repair Center
 
-Corporate website for Turgutlar Oto Tamir ve Hasar Onarım Merkezi, an automotive repair and bodywork centre in Seyhan, Adana.
+Corporate website for Turgutlar Auto Repair and Bodywork Center, an automotive repair and bodywork centre in Seyhan, Adana.
 
 ## Tech Stack
 
